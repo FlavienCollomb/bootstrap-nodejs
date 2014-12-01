@@ -1,0 +1,9 @@
+{
+    "name": "Your project name",
+    "description": "Your project description",
+    "version": "0.0.1",
+    "rekuire": {
+        "ignore": ["out", "public", "logs", "views", "node_modules"]
+    },
+    "author": "Author name <author@email.fr>"
+}

@@ -1,0 +1,43 @@
+{
+    "db":{
+        "test":{
+            "host"        :"localhost",
+            "port"        :8889,
+            "username"    :"root",
+            "password"    :"root",
+            "database"    :"test"
+        }
+    },
+    "email":{
+        "smtp":{
+            "smtp"  :"smt.example.net",
+            "port"  :587
+        },
+        "gmail":{
+            "user"  :"your.gmail.id",
+            "pass"  :"your.gmail.password"
+        },
+        "error":{
+            "from"      :"youremail@gmail.com",
+            "to"        :"youremail@gmail.com",
+            "subject"   :"ERR|",
+            "type"      :"gmail"
+        },
+        "force":{
+            "to":"youremail@gmail.com",
+            "prefix":"TEST|"
+        }
+    },
+    "log":{
+        "name" : "Your project Node JS test",
+        "streams":[
+            {
+                "level" : "info",
+                "path"  : "./logs/info.log"
+            },{
+                "level" : "error",
+                "path"  : "./logs/error.log"
+            }
+        ]
+    }
+}
