@@ -9,7 +9,10 @@ var Router=(function(){
     var _mime = {
         '.js': 'text/javascript',
         '.html': 'text/html',
-        '.css': 'text/css'
+        '.css': 'text/css',
+        '.jpg'  : 'image/jpeg',
+        '.jpeg' : 'image/jpeg',
+        '.png'  : 'image/png'
     };
 
     var _route ={
