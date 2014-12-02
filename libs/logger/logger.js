@@ -29,7 +29,7 @@ var Logger=(function(){
                 case 4:
                     _log.error(msg);
                     var error = servicer.Servicer.get("parameter").get(["email","error"]);
-                    error["subject"]=msg;
+                    error["text"]=msg;
                     servicer.Servicer.get("mailer").send(error,error["type"]);
                     break;
             }
